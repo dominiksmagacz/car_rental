@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/w3css/w3.css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <title>FAQ | Jalandhar Car Rental</title>
+    <title>Wypożyczalnia aut FAQ</title>
 </head>
 
 <body>
@@ -33,7 +33,7 @@
                     <i class="fa fa-bars"></i>
                     </button>
                 <a class="navbar-brand page-scroll" href="/../Stribon Technologies/index.php">
-                   Jalandhar CAR RENTAL </a>
+                   Wypożyczalnia aut </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
 
@@ -46,15 +46,15 @@
                             <a href="index.php">Home</a>
                         </li>
                         <li>
-                            <a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_client']; ?></a>
+                            <a href="#"><span class="glyphicon glyphicon-user"></span> Witaj <?php echo $_SESSION['login_client']; ?></a>
                         </li>
                         <li>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Control Panel <span class="caret"></span> </a>
+                                <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> Panel kontrolny <span class="caret"></span> </a>
                                     <ul class="dropdown-menu">
-                                        <li> <a href="entercar.php">Add Car</a></li>
-                                        <li> <a href="enterdriver.php"> Add Driver</a></li>
-                                        <li> <a href="clientview.php">View</a></li>
+                                        <li> <a href="entercar.php">Dodaj auto</a></li>
+                                        <li> <a href="enterdriver.php"> Dodaj kierowce</a></li>
+                                        <li> <a href="clientview.php">Widok</a></li>
 
                                     </ul>
                                 </li>
@@ -76,13 +76,13 @@
                                 <a href="index.php">Home</a>
                             </li>
                             <li>
-                                <a href="#"><span class="glyphicon glyphicon-user"></span> Welcome <?php echo $_SESSION['login_customer']; ?></a>
+                                <a href="#"><span class="glyphicon glyphicon-user"></span> Witaj <?php echo $_SESSION['login_customer']; ?></a>
                             </li>
                             <ul class="nav navbar-nav">
-                                <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Garagge <span class="caret"></span> </a>
+                                <li><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Garaż <span class="caret"></span> </a>
                                     <ul class="dropdown-menu">
-                                        <li> <a href="prereturncar.php">Return Now</a></li>
-                                        <li> <a href="mybookings.php"> My Bookings</a></li>
+                                        <li> <a href="prereturncar.php">Zwróć auto</a></li>
+                                        <li> <a href="mybookings.php"> Moje rezerwacje</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -103,10 +103,10 @@
                                     <a href="/../Stribon Technologies/index.php">Home</a>
                                 </li>
                                 <li>
-                                    <a href="/../Stribon Technologies/clientlogin.php">Client</a>
+                                    <a href="/../Stribon Technologies/clientlogin.php">Admin</a>
                                 </li>
                                 <li>
-                                    <a href="/../Stribon Technologies/customerlogin.php">Customer</a>
+                                    <a href="/../Stribon Technologies/customerlogin.php">Klient</a>
                                 </li>
                                 <li>
                                     <a href="faq/index.html"> FAQ </a>
